@@ -2,19 +2,19 @@
 
 /**
  * prints all the elements of a listint_t list.
- * @h: liste chaînée de type listint_t à imprimer
+ * @h: liste chainee de type listint_t a imprimer
  * Return: the number of nodes
 */
 size_t print_listint(const listint_t *h)
 {
-size_t num = 0;
+size_t numero = 0;
 	while (h)
 	{
 		printf("%d\n", h->n);
-		num++;
+		numero++;
 		h = h->next;
 	}
-	return (num);
+	return (numero);
 }
 
 
