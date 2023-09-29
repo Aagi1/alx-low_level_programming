@@ -30,10 +30,9 @@ unsigned int binary_to_uint(const char *b)
 			int p = 1;
 
 			for (k = 0; k < (j - i - 1); k++)
-			{
 				p *= 2;
-				s += p;
-			}
+
+			s += p;
 		}
 	}
 
